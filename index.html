@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Supakon Sarnoi</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/unnamed.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid nav-container">
+            <a href="#home" class="navbar-brand logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Neural Network Logo -->
+                    <circle cx="50" cy="20" r="8" fill="none" stroke="#00ffff" stroke-width="2" />
+                    <circle cx="25" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2" />
+                    <circle cx="75" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2" />
+                    <circle cx="50" cy="80" r="8" fill="none" stroke="#ffff00" stroke-width="2" />
+
+                    <!-- Connections -->
+                    <line x1="50" y1="28" x2="25" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="50" y1="28" x2="75" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="25" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                    <line x1="75" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+
+                    <!-- Center node -->
+                    <circle cx="50" cy="50" r="5" fill="#00ffff" />
+                    <line x1="50" y1="28" x2="50" y2="45" stroke="#00ffff" stroke-width="1" opacity="0.6" />
+                    <line x1="50" y1="55" x2="50" y2="72" stroke="#ffff00" stroke-width="1" opacity="0.6" />
+                    <line x1="33" y1="50" x2="45" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                    <line x1="55" y1="50" x2="67" y2="50" stroke="#ff00ff" stroke-width="1" opacity="0.6" />
+                </svg>
+                <span class="logo-text">RESUME</span>
+            </a>
+
+            <button class="navbar-toggler mobile-menu-toggle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="collapse navbar-collapse nav-menu" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Mr.SUPAKON SARNOI">Mr.SUPAKON SARNOI</h1>
+            <p class="subtitle">Web Developer & Backend Developer</p>
+        </div>
+        <a href="#about" class="scroll-btn">
+            <div class="scroll-btn-inner">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                </svg>
+            </div>
+        </a>
+    </section>
+
+    <section id="about" class="fade-in">
+        <h2 class="section-title">ABOUT ME</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <div class="profile-img-wrapper">
+                    <img src="img/IMG_1300.png" alt="Profile" class="profile-img">
+                </div>
+            </div>
+            <div class="about-content">
+                <h3>Mr.Supakon Sarnoi</h3>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 5px;">
+                    <strong class="info-label">Education:</strong> Second-year Bachelor’s degree student
+                </p>
+
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 5px;">
+                    <strong class="info-label">Department:</strong> <em>Computer Engineering and Artificial Intelligence
+                        – CAI</em>
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 5px;">
+                    <strong class="info-label">Faculty:</strong> Faculty of Engineering and Technology
+                </p>
+                <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 15px;">
+                    <strong class="info-label">Institution:</strong> <a href="http://pim.ac.th"
+                        target="_blank">Panyapiwat Institute of Management</a>
+                </p>
+
+                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--text-secondary);">
+                    Brief Introduction: I am a driven and motivated student aspiring to become a developer, fueled by
+                    curiosity and a deep passion for technology.
+                    I love tackling challenges, experimenting with new ideas, and building software that can truly make
+                    a difference in the world.
+                </p>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Years Student</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">B+</div>
+                        <div class="stat-label">Grade Programming</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="projects-grid row g-4">
+            <div class="col-12 col-md-6">
+                <div class="glass-card project-card">
+                    <h3 style="color: var(--primary);"> Mini Project POS</h3>
+                    <p style="color: var(--text-secondary);">Implemented GUI with login authentication, product
+                        management, checkout, total price display</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="glass-card project-card">
+                    <h3 style="color: var(--secondary);">Resume Website</h3>
+                    <p style="color: var(--text-secondary);">Independently designed and developed a personal
+                        web resume using HTML and CSS.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="glass-card project-card">
+                    <h3 style="color: var(--accent);">Aws Cloud</h3>
+                    <p style="color: var(--text-secondary);">Predict future store sales, identify which products should
+                        be stocked next month, and monitor inventory automatically.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="glass-card project-card">
+                    <h3 style="color: var(--primary);">Bot Game</h3>
+                    <p style="color: var(--text-secondary);">A game bot that automatically farms items in the game using
+                        Python, by capturing the screen and moving according to predefined paths.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2 class="section-title">SKILLS</h2>
+        <div class="skills-container">
+            <div class="skill-node">
+                <img src="img/3904930.png" alt="">
+                <span>HTML5</span>
+            </div>
+            <div class="skill-node">
+                <img src="img/pngegg.png" alt="">
+                <span>CSS3</span>
+            </div>
+            <div class="skill-node">
+                <img src="img/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-node">
+                <img src="img/226777.png" alt="">
+                <span>JAVA</span>
+            </div>
+            <div class="skill-node">
+                <img src="img/Python-programming-logo-on-transparent-background-PNG.png" alt="">
+                <span>PYTHON</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="fade-in">
+        <h2 class="section-title">CERTIFICATES</h2>
+        <div class="certificates-container">
+            <div class="certificate-card glass-card">
+                <div class="certificate-image">
+                    <img src="img/ฟหก.png" alt="Certificate 1">
+                </div>
+                <div class="certificate-info">
+                    <h3>Certificate Cybersecurity</h3>
+                    <p class="certificate-issuer">Issued by: PANYAPIWAT</p>
+                    <p class="certificate-date">Date: October 2025</p>
+                    <p class="certificate-description">
+                        I have learned how to protect computer systems, networks, and data from cyber attacks,
+                        unauthorized access, or damage in today’s digital world.
+                    </p>
+                </div>
+            </div>
+
+            <div class="certificate-card glass-card">
+                <div class="certificate-image">
+                    <img src="img/ฟไห.png" alt="Certificate 2">
+                </div>
+                <div class="certificate-info">
+                    <h3>Certificate Aws</h3>
+                    <p class="certificate-issuer">Issued by: Amazon Web Services</p>
+                    <p class="certificate-date">Date: October 2025</p>
+                    <p class="certificate-description">
+                        I have learned how to use various AWS services, such as DynamoDB, S3, and EC2.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2 class="section-title">CONTACT</h2>
+        <div class="contact-info-container">
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                </div>
+                <h3>Email</h3>
+                <p>supakonsarnoi@gmail.com</p>
+            </div>
+
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                </div>
+                <h3>Phone</h3>
+                <p>+66 82 392 3603</p>
+            </div>
+
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                </div>
+                <h3>Location</h3>
+                <p>Bangkok, Thailand</p>
+            </div>
+
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/>
+                    </svg>
+                </div>
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/Supakon33" target="_blank">github.com/Bvs</a></p>
+            </div>
+
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </div>
+                <h3>Instagram</h3>
+                <p><a href="https://www.instagram.com/b_spksn/" target="_blank">@b_spksns</a></p>
+            </div>
+
+            <div class="contact-card glass-card">
+                <div class="contact-icon">
+                    <svg width="40" height="40" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                </div>
+                <h3>Discord</h3>
+                <p><a href="https://discord.com/users/youruserid" target="_blank">_loyyy1</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="row g-4">
+                <div class="col-12 col-md-4 footer-section">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">UI/UX Development</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Consultation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4 footer-section">
+                    <h3>Connect</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                        Let's build something amazing together
+                    </p>
+                    <div class="social-links">
+                        <a href="mailto:supakonsarnoi@gmail.com" aria-label="Email">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </a>
+                        <a href="tel:+66823923603" aria-label="Phone">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" aria-label="Location">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/Supakon33" target="_blank" aria-label="GitHub">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/b_spksn/" target="_blank" aria-label="Instagram">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="https://discord.com/users/youruserid" target="_blank" aria-label="Discord">
+                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2048 Developer Portfolio. All rights reserved. Provided by Bvs
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Bootstrap Integration Script -->
+    <script>
+        // Smooth scrolling for all links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    // Close navbar on mobile after click
+                    const navCollapse = document.querySelector('.navbar-collapse');
+                    if (navCollapse.classList.contains('show')) {
+                        bootstrap.Collapse.getInstance(navCollapse).hide();
+                    }
+
+                    // Smooth scroll
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        let lastScrollTop = 0;
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+
+            lastScrollTop = scrollTop;
+
+            const sections = document.querySelectorAll('.fade-in');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.8) {
+                    section.classList.add('visible');
+                }
+            });
+        });
+
+        // Initialize fade-in animation on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.fade-in');
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.8) {
+                    section.classList.add('visible');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
